@@ -3,7 +3,7 @@
 This is my personal portfolio built with React and Vite, show casing my projects.
 
 ## 🔗 Live Demo
-[View Portfolio](https://your-portfolio-link.netlify.app)
+[View Portfolio](https://tk-portfolio-dev.netlify.app)
 
 ## 🛠 Tech Stack
 - React
