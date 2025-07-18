@@ -14,7 +14,7 @@ This is my personal portfolio built with React and Vite, show casing my projects
 ## 📂 Features
 - Responsive design
 - Smooth scrolling navigation
-- Project showcase with screenshots
-- Contact section with mailto link
+- Project showcase with live links
+
 
 
