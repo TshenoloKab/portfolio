@@ -26,7 +26,7 @@ function App() {
         <div className="hero-content">
           <h2>Hi, I'm Tshenolo Kabikwa</h2>
           <h3>Frontend Developer</h3>
-          <p><strong>Tech Stack:</strong> HTML • CSS • JavaScript • React</p>
+          <p><strong>Tech Stack:</strong> React • JavaScript •  HTML • CSS </p>
           <a href="#projects" className="btn">View My Projects</a>
         </div>
       </section>
@@ -38,7 +38,7 @@ function App() {
           <p>
             I'm, a frontend developer passionate about 
             building clean, responsive, and user-friendly web applications. With a 
-            strong foundation in <strong>HTML, CSS, JavaScript,</strong> and <strong>React</strong>, 
+            strong foundation in <strong>React, JavaScript, HTML</strong> and <strong>CSS</strong>, 
             I focus on delivering seamless digital experiences.
           </p>
           <p>
@@ -54,22 +54,22 @@ function App() {
           <h2>Projects</h2>
           <div className="project-grid">
             <div className="project-card">
+              <img src={expense} alt="Expense Tracker Screenshot" className="project-image" />
+              <h3>Expense Tracker</h3>
+              <p>A responsive expense tracker built with React (Phase 1 - Static). Dynamic features like transaction management are planned in next Phase.</p>
+              <a href="https://expense-tracker-tkdev.netlify.app" target="_blank" rel="noreferrer" className="btn">View Project</a>
+            </div>
+            <div className="project-card">
               <img src={recipe} alt="Recipe App Screenshot" className="project-image" />
               <h3>Recipe App</h3>
-              <p>An interactive recipe app where users can browse, search, and save favorite recipes. Built with React, it features a clean UI, recipe categories, and an API for fetching recipe data dynamically.</p>
-              <a href="https://github.com/username/portfolio" target="_blank" rel="noreferrer" className="btn">View Project</a>
+              <p>A recipe discovery app where users will browse, search, and save favorite recipes with a clean React UI. <br /> (Coming Soon)</p>
+              <a href="https://coming-soon-tk.netlify.app/" target="_blank" rel="noreferrer" className="btn">View Project</a>
             </div>
             <div className="project-card">
               <img src={property} alt="Property Screenshot" className="project-image" />
               <h3>Property Rental Finder</h3>
-              <p>A rental finder app designed to simplify rental property discovery, enabling users to search, filter, and explore properties globally. Built with responsive layouts, dynamic property cards, and API-powered real-time listings.</p>
-              <a href="https://github.com/username/todo-app" target="_blank" rel="noreferrer" className="btn">View Project</a>
-            </div>
-            <div className="project-card">
-              <img src={expense} alt="Expense Tracker Screenshot" className="project-image" />
-              <h3>Expense Tracker</h3> 
-              <p>A responsive web app to track income and expenses. Features include dynamic charts, adding/deleting transactions, and local storage for saving data across sessions.</p>
-              <a href="https://github.com/username/recipe-explorer" target="_blank" rel="noreferrer" className="btn">View Project</a>
+              <p>A rental finder app where users will search, filter, and explore rentals globally with responsive layouts,and real-time listings. (Coming Soon)</p>
+              <a href="https://coming-soon-tk.netlify.app/" target="_blank" rel="noreferrer" className="btn">View Project</a>
             </div>
           </div>
         </div>
@@ -79,8 +79,7 @@ function App() {
       <section id="contact" className="contact">
         <div className="section-content">
           <h2>Contact Me</h2>
-          <p>Have a role or project in mind? Let's discuss!</p>
-          <a href="mailto:tckabikwa@gmail.com" className="btn">Get in Touch</a>
+          <p>Have a role or project in mind? Reach out - I'd love to hear from you!</p>
         </div>
       </section>
 
