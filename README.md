@@ -7,9 +7,9 @@ This is my personal portfolio built with React and Vite, show casing my projects
 
 ## 🛠 Tech Stack
 - React
-- Vite
-- HTML5 & CSS3
 - JavaScript (ES6+)
+- HTML5 & CSS3
+- Vite
 
 ## 📂 Features
 - Responsive design
