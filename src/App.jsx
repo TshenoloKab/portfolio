@@ -25,8 +25,8 @@ function App() {
       {/* Hero Section */}
       <section id="hero" className="hero">
         <div className="hero-content">
-          <h2 className="fade-in">Hi, I'm Tshenolo Kabikwa</h2>
-          <h3 className="fade-in-delay">Frontend Developer</h3>
+          <h3 className="fade-in">Hi, I'm Tshenolo Kabikwa</h3>
+          <h4 className="fade-in-delay">Frontend Developer</h4>
           <a href="#projects" className="btn pulse">View My Projects</a>
         </div>
       </section>
@@ -36,7 +36,7 @@ function App() {
         <div className="about-content">
           <h2>About Me</h2>
           <p>
-            I’m a frontend developer passionate about building clean, responsive, and user-friendly web applications. 
+            I'm a frontend developer passionate about building clean, responsive, and user-friendly web applications. 
             With a solid foundation in <strong>React, JavaScript, HTML</strong> and <strong>CSS</strong>, 
             I focus on delivering seamless digital experiences.
           </p>
@@ -91,13 +91,25 @@ function App() {
         </div>
       </section>
 
-      {/* Contact Section */}
-      <section id="contact" className="contact">
-        <div className="section-content">
-          <h2>Contact Me</h2>
-          <p>Have a role or project in mind? Reach out - I'd love to hear from you!</p>
-        </div>
-      </section>
+{/* Contact Section */}
+<section id="contact" className="contact">
+  <div className="section-content">
+    <h2>Contact Me</h2>
+    <p>Have a role or project in mind? Reach out - I'd love to hear from you!</p>
+    <div className="social-icons">
+      <a href="https://www.linkedin.com/in/tshenolo-kabikwa" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+        <i className="fab fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/tshenoloKab" target="_blank" rel="noreferrer" aria-label="GitHub">
+        <i className="fab fa-github"></i>
+      </a>
+      <a href="mailto:youremail@example.com" aria-label="Email">
+        <i className="fas fa-envelope"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
 
       {/* Footer */}
       <footer className="footer">
